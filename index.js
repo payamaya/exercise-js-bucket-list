@@ -54,5 +54,9 @@ console.log(addPara)
 
 // 8)How many items
 const list = document.querySelector('.list')
-const children = list.children
-console.log(children) // HTMLCollection[div,p,p,p]
+const childrenList = list.children
+console.log(childrenList) // HTMLCollection[div,p,p,p]
+
+// 9) Change the h2 innerText
+const name = document.querySelector('h2')
+const changeName = (name.innerText = 'Paul')
