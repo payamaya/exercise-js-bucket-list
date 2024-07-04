@@ -4,9 +4,7 @@ In this assignment you are going to create your bucket list but in a different w
 
 The purpose of the assignment is to learn how we can create basic, and more advanced content, solely with JavaScript.
 
-<figure>
-  <img src="screenshot.png" alt="Screenshot">
-</figure>
+<figure><img src="./screenshot.png"></figure>
 
 To get you started you are given a basic template of HTML and CSS code, but this is all you get. The rest you must create on your own. Follow the instructions below.
 
