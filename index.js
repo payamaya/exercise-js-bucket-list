@@ -69,3 +69,22 @@ console.log(newItem.innerText)
 const elementChild = document.querySelector('.list').children[0]
 elementChild.replaceChild(newItem, elementChild.childNodes[0])
 console.log(elementChild.innerHTML)
+
+// 11) Replace the middle item
+// const newItem2 = document.createElement('p')
+// newItem2.innerText = 'New item replacing the removed item from the middle'
+// console.log(newItem2.innerText)
+// const elementChild2 = document.querySelector('.list').children[2]
+// elementChild2.replaceChild(newItem2, elementChild2.childNodes[0])
+// console.log(elementChild2.innerHTML)
+
+// 11) Replace the middle item
+const middleItem = document.createElement('p')
+middleItem.innerText = 'Replacing the middle item with a new item'
+
+const listItem = document.querySelector('.list')
+
+const itemToReplace = listItem.children[2]
+listItem.replaceChild(middleItem, itemToReplace)
+
+console.log(listItem.innerText)
