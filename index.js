@@ -51,3 +51,8 @@ for (let i = 0; i < newParagraphs.length; i++) {
   addPara.insertAdjacentHTML('beforeend', newParagraphs[i])
 }
 console.log(addPara)
+
+// 8)How many items
+const list = document.querySelector('.list')
+const children = list.children
+console.log(children) // HTMLCollection[div,p,p,p]
