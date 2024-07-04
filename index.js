@@ -60,3 +60,12 @@ console.log(childrenList) // HTMLCollection[div,p,p,p]
 // 9) Change the h2 innerText
 const name = document.querySelector('h2')
 const changeName = (name.innerText = 'Paul')
+
+// 10) replaceChild
+
+const newItem = document.createElement('p')
+newItem.innerText = 'New item replacing the removed item'
+console.log(newItem.innerText)
+const elementChild = document.querySelector('.list').children[0]
+elementChild.replaceChild(newItem, elementChild.childNodes[0])
+console.log(elementChild.innerHTML)
