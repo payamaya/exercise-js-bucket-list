@@ -39,3 +39,15 @@ for (let i = 0; i < paragraph.length; i++) {
   p.remove()
 }
 console.log(sectionComment.innerHTML)
+
+// 7) Add three more items to the end of the p
+const addPara = document.querySelector('.list')
+const newParagraphs = [
+  '<p>New paragraph 1</p>',
+  '<p>New paragraph 2</p>',
+  '<p>New paragraph 3</p>',
+]
+for (let i = 0; i < newParagraphs.length; i++) {
+  addPara.insertAdjacentHTML('beforeend', newParagraphs[i])
+}
+console.log(addPara)
