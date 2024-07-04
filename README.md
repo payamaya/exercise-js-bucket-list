@@ -1,10 +1,12 @@
-# Bucket List
+# exercise-js-bucket-list
 
 In this assignment you are going to create your bucket list but in a different way than you might be used it. It's _**forbidden**_ in this assignment to add elements, content, styling or anything else, inside your HTML document or CSS files. All of this will be handled through vanilla JavaScript.
 
 The purpose of the assignment is to learn how we can create basic, and more advanced content, solely with JavaScript.
 
-<figure><img src="./screenshot.png"></figure>
+<figure>
+  <img src="screenshot.png" alt="Screenshot">
+</figure>
 
 To get you started you are given a basic template of HTML and CSS code, but this is all you get. The rest you must create on your own. Follow the instructions below.
 
@@ -24,7 +26,7 @@ To get you started you are given a basic template of HTML and CSS code, but this
 4. In order to set the `innerHTML` of an element we need to create a string that contains the HTML code that we want to add to the DOM. It can look something like this:
 
    ```js
-   "<div>This is a div element as a string</div>";
+   '<div>This is a div element as a string</div>'
    ```
 
    Now create that string that contains a new item that you want to add to your bucket list.
@@ -44,4 +46,3 @@ To get you started you are given a basic template of HTML and CSS code, but this
 11. Now try replace an element in the middle of the list to a new one. Use the same method as before or get creative.
 
 12. Remove the last element in the list. `lastChildElement` combine with the `removeChild` method might work.
-# exercise-js-bucket-list
