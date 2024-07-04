@@ -88,3 +88,9 @@ const itemToReplace = listItem.children[2]
 listItem.replaceChild(middleItem, itemToReplace)
 
 console.log(listItem.innerText)
+
+// 12) remove the last element
+
+const removeItem = document.querySelector('.list')
+
+console.log(removeItem.removeChild(removeItem.lastElementChild))
