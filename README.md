@@ -44,3 +44,4 @@ To get you started you are given a basic template of HTML and CSS code, but this
 11. Now try replace an element in the middle of the list to a new one. Use the same method as before or get creative.
 
 12. Remove the last element in the list. `lastChildElement` combine with the `removeChild` method might work.
+# exercise-js-bucket-list
