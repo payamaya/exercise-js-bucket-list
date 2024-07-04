@@ -29,4 +29,13 @@ const newPara = '<div>This is a div element as a string</div>'
 allPara.innerHTML += newPara
 console.log(allPara.innerHTML)
 
-// 6)
+// 6) commen t out the p
+const sectionComment = document.querySelector('.list')
+const paragraph = sectionComment.querySelectorAll('p')
+for (let i = 0; i < paragraph.length; i++) {
+  const p = paragraph[i]
+  const commentText = `<!-- ${p.outerHTML} -->`
+  p.insertAdjacentHTML('beforebegin', commentText)
+  p.remove()
+}
+console.log(sectionComment.innerHTML)
