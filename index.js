@@ -23,14 +23,13 @@ pElements.forEach((p, index) => {
 })
 // 4) Create innerHTML
 const allPara = document.querySelector('.list')
-const innerHTml = `<div>This is a div element as a string</div>`
-const div = document.querySelector('.list-desc')
+const newPara = '<div>This is a div element as a string</div>'
+
 // 5) set innerHTML
-div.innerHTML += innerHTml
+allPara.innerHTML += newPara
+console.log(allPara.innerHTML)
 
-console.log(div.innerHTML)
-
-// 6) comment out the p
+// 6) commen t out the p
 const sectionComment = document.querySelector('.list')
 const paragraph = sectionComment.querySelectorAll('p')
 for (let i = 0; i < paragraph.length; i++) {
